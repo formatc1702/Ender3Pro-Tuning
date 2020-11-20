@@ -7,11 +7,11 @@ Filament settings: Disabled
 Steps per unit:
   M92 X80.00 Y80.00 Z400.00 E93.60
 Maximum feedrates (units/s):
-  M203 X500.00 Y500.00 Z5.00 E25.00
+  M203 X500.00 Y500.00 Z5.00 E150.00
 Maximum Acceleration (units/s2):
-  M201 X500 Y500 Z100 E1000
+  M201 X500 Y500 Z100 E3000
 Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
-  M204 P500.00 R500.00 T1000.00
+  M204 P1000.00 R1000.00 T1000.00
 Advanced: S<min_feedrate> T<min_travel_feedrate> B<min_segment_time_ms> X<max_xy_jerk> Z<max_z_jerk> E<max_e_jerk>
   M205 S0.00 T0.00 B20000 X10.00 Y10.00 Z0.40 E5.00
 Home offset:
