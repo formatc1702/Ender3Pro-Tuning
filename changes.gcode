@@ -12,3 +12,6 @@ M204 P1000 R1000 T1000
 M207 F6000
 ; Firmware recover
 M208 F6000
+
+; Save settings to EEPROM
+M500
